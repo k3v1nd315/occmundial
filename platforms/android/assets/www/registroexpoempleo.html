@@ -64,43 +64,43 @@
     <tr>
       <td>
         <label name="nombre_completo" id="nombre_completo" class="item item-input ">
-            <input placeholder="Nombre Completo" type="text">
+            <input placeholder="Nombre Completo" type="text" id="nombre_completo_expo">
         </label>
     </td>
     <td>
         <label name="nombre_empresa" id="nombre_empresa" class="item item-input ">
-            <input placeholder="Nombre de la empresa" type="text">
+            <input placeholder="Nombre de la empresa" type="text" id="nombre_empresa_expo">
         </label>
     </td>
     </tr>
     <tr>
         <td>
             <label name="email" id="email" class="item item-input ">
-                <input placeholder="Email" type="text">
+                <input placeholder="Email" type="text" id="email_expo">
             </label>
         </td>
         <td>
             <label name="agregar_comentario" id="agregar_comentario" class="item item-input ">
-                <input placeholder="Agregar comentario" type="text">
+                <input placeholder="Agregar comentario" type="text" id="agregar_comentario_expo">
             </label>
         </td>
     </tr>
     <tr>
         <td>
             <label name="telefono" id="telefono" class="item item-input ">
-                <input placeholder="Teléfono" type="text">
+                <input placeholder="Teléfono" type="text" id="telefono_expo">
             </label>
         </td>
         <td>
             <label name="agregar_favorito" id="agregar_favorito" class="item item-input ">
-                <input placeholder="Agregar a favorito" type="text">
+               <input name="agregar_favoritos" type="checkbox" id="agregar_favoritos_expo">Agregar Favoritos
             </label>
         </td>
     </tr>
     <tr>
         <td>
             <label name="celular" id="celular" class="item item-input ">
-                <input placeholder="Celular" type="text">
+                <input placeholder="Celular" type="text" id="celular_expo">
             </label>
         </td>
         <td>    
@@ -121,7 +121,8 @@
     </tr>
   </tbody>
 </table>
-<div class="centro_horizontal">
+<div style="text-align:center">
+    <p class="etiqueta error_etiqueta oculto error_terminos">Debe aceptar los términos para guardar</p>
     <button class=" ui-btn-active ui-btn ui-input-btn ui-corner-all ui-shadow ui-btn-inline " style="border-radius:15px 15px 15px 15px;" id="nuevoEvento-button6">Guardar</button>
 </div>
 

@@ -32,7 +32,7 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" type="text/css" href="css/ionic.css">
         <link rel="stylesheet" type="text/css" href="css/mi.css">
         
         <title>Occmundial</title>
@@ -50,87 +50,19 @@
             <img style="display: block; margin-left: auto;position: absolute; top:20px; right:10px;" src="img/user.png" height="auto" width="4%">
         </div>
         <h2 class="header_titulo">Registro Universidad</h2>        
-     
-
-
-<table data-role="table" data-mode="reflow" class="ui-responsive">
-<thead>
-    <tr>
-        <th></th>
-        <th></th>
-    </tr>
-</thead>
-  <tbody>
-    <tr>
-      <td>
-        <label name="nombre_completo" id="nombre_completo" class="item item-input ">
-            <input placeholder="Nombre Completo" type="text" id="nombre_completo_universidad">
-        </label>
-    </td>
-    <td>
-        <label name="contrasena" id="contrasena" class="item item-input ">
-            <input placeholder="Contraseña" type="password" id="password_universidad">
-        </label>
-    </td>
-    </tr>
-    <tr>
-        <td>
-            <label name="email" id="email" class="item item-input ">
-                <input placeholder="Email" type="text" id="email_universidad">
-            </label>
-        </td>
-        <td>
-            <label name="agregar_comentario" id="agregar_comentario" class="item item-input ">
-                <input placeholder="Agregar comentario" type="text" id="agregar_comentario_universidad">
-            </label>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <label name="telefono" id="telefono" class="item item-input ">
-                <input placeholder="Teléfono" type="text" id="telefono_universidad">
-            </label>
-        </td>
-        <td>
-            <label name="agregar_favorito" id="agregar_favorito" class="item item-input ">
-                <input name="agregar_favoritos" type="checkbox" id="agregar_favoritos_universidad">Agregar Favoritos
-            </label>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <label name="celular" id="celular" class="item item-input ">
-                <input placeholder="Celular" type="text" id="celular_universidad">
-            </label>
-        </td>
-        <td>    
-                <input name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true" type="checkbox">
-                    <label for="checkbox-mini-0">
-                       <small>Acepto términos y condiciones y aviso de privacidad </small>
-                    </label>
-                    <small>
-                        <a href="terminosycondiciones.html" class="ui-link"> Leer los términos y condiciones</a>
-                    </small>
-        </td>
-    </tr>
-  </tbody>
-</table>
-<div style="text-align:center">
-    <p class="etiqueta error_etiqueta oculto error_terminos">Debe aceptar los términos para guardar</p>
-    <button class=" ui-btn-active ui-btn ui-input-btn ui-corner-all ui-shadow ui-btn-inline " style="border-radius:15px 15px 15px 15px;" id="nuevoEvento-button6">Guardar</button>
-</div>
-
-
-
-
-
+        <div class="contenedor">
+            <button class=" button button-positive button-large button-outline botones" data-transition="flow" style="border-radius:15px 15px 15px 15px;" id="bienvenida-button4">Comenzar Registro</button>
+        </div>
 </div>
 </div>
+
+
+
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="js/header.js"></script>
-        <script type="text/javascript" src="js/registrouniversidad.js"></script>
-
+        <script type="text/javascript" src="js/comenzarregistrouniversidad.js"></script>
     </body>
 </html>
