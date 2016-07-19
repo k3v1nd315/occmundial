@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es-ES" xml:lang="es">
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" type="text/css" href="css/mi.css">
+        
+        <title>Occmundial</title>
+    </head>
+    <body>
+    
+
+<div data-role="page">
+  <div data-role="main" class="ui-content">
+<div class="">
+            <img style="display:inline;margin-top:10px" src="img/logo.png" height="auto" width="40%">
+        </div>
+        <p class="header_nombre_usuario" style="color:#8C8383;font-size:20px;text-align:right; position: absolute; top:35px; right:55px;" ></p>
+        <div class="ico_user">
+            <img style="display: block; margin-left: auto;position: absolute; top:20px; right:10px;" src="img/user.png" height="auto" width="4%">
+        </div>
+        <h2 class="header_titulo">Registro Expoempleo 16</h2>        
+     
+
+
+<table data-role="table" data-mode="reflow" class="ui-responsive">
+<thead>
+    <tr>
+        <th></th>
+        <th></th>
+    </tr>
+</thead>
+  <tbody>
+    <tr>
+      <td>
+        <label name="nombre_completo" id="nombre_completo" class="item item-input ">
+            <input placeholder="Nombre Completo" type="text">
+        </label>
+    </td>
+    <td>
+        <label name="nombre_empresa" id="nombre_empresa" class="item item-input ">
+            <input placeholder="Nombre de la empresa" type="text">
+        </label>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <label name="email" id="email" class="item item-input ">
+                <input placeholder="Email" type="text">
+            </label>
+        </td>
+        <td>
+            <label name="agregar_comentario" id="agregar_comentario" class="item item-input ">
+                <input placeholder="Agregar comentario" type="text">
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label name="telefono" id="telefono" class="item item-input ">
+                <input placeholder="Teléfono" type="text">
+            </label>
+        </td>
+        <td>
+            <label name="agregar_favorito" id="agregar_favorito" class="item item-input ">
+                <input placeholder="Agregar a favorito" type="text">
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label name="celular" id="celular" class="item item-input ">
+                <input placeholder="Celular" type="text">
+            </label>
+        </td>
+        <td>    
+                
+                    <input name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true" type="checkbox">
+                    <label for="checkbox-mini-0">
+                        <small>Acepto términos y condiciones y aviso de privacidad </small>
+                    </label>
+                    <small>
+                        <a href="terminosycondiciones.html" class="ui-link"> Leer los términos y condiciones</a>
+                    </small>
+                
+                    
+                
+                
+                
+        </td>
+    </tr>
+  </tbody>
+</table>
+<div class="centro_horizontal">
+    <button class=" ui-btn-active ui-btn ui-input-btn ui-corner-all ui-shadow ui-btn-inline " style="border-radius:15px 15px 15px 15px;" id="nuevoEvento-button6">Guardar</button>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/header.js"></script>
+        <script type="text/javascript" src="js/registroexpoempleo.js"></script>
+    </body>
+</html>
